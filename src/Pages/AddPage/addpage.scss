@@ -1,0 +1,56 @@
+
+
+.our_services{
+    width: 65%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .our_services_head{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 40px;
+        font-weight: 600;
+        color: #3c3cff;
+    }
+    .our_services_cards{
+        padding: 40px 0px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        .our_services_card{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+           ul{
+            padding: 20px 0px;
+            display: flex;
+             flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            .image{
+                font-size: 50px;
+                color: #3c3cff;
+            }
+            .learn_more{
+                color: #3c3cff;
+                margin: 0 auto;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                span{
+                    width: 100px;
+                border: 1px solid black;
+                cursor: pointer;
+                border-radius: 20px;
+                }
+            }
+           }
+        }
+    }
+}
